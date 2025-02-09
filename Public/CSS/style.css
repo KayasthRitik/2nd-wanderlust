@@ -11,7 +11,7 @@ body {
 
 .navbar {
     height: 5rem;
-    background-color: aliceblue;
+    background-color: aliceblue !important;
 }
 
 .fa-compass {
@@ -26,36 +26,36 @@ body {
 /* footer */
 
 .f-info-links a {
-    text-decoration: none;
-    color: #222222;
+    text-decoration: none !important;
+    color: #222222 !important;
 }
 
 .f-info-links a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .f-info-links,
 .f-info-socials,
 .f-info-brand {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .f-info-socials i {
-    margin-right: 1rem;
-    font-size: 1.3rem;
+    margin-right: 1rem !important;
+    font-size: 1.3rem !important;
 }
 
 .f-info {
-    text-align: center;
-    height: 8rem;
-    display: flex;
-    background-color: #ebebeb;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
+    text-align: center !important;
+    height: 8rem !important;
+    display: flex !important;
+    background-color: #ebebeb !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: space-evenly !important;
 }
 
 /* Cards */
